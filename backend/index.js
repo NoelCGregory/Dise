@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import predict from "./routes/prediction";
+import predict from "./routes/prediction.js";
 let app = express();
 
 app.use(express.json());
